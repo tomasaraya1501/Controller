@@ -1,0 +1,6 @@
+V3 3
+FL C:/AAA/SIM/ISE/Arqui/MainDecoder/MainDecoder.vhd 2018/11/06.13:26:42 P.20131013
+EN work/maindec 0 FL C:/AAA/SIM/ISE/Arqui/MainDecoder/MainDecoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/maindec/behave 0 \
+      FL C:/AAA/SIM/ISE/Arqui/MainDecoder/MainDecoder.vhd EN work/maindec 0

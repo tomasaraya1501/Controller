@@ -1,0 +1,4 @@
+vhdl isim_temp "MainDecoder.vhd"
+vhdl isim_temp "AluDec.vhd"
+vhdl isim_temp "Controller.vhd"
+vhdl isim_temp "TestbenchControlunit.vhd"

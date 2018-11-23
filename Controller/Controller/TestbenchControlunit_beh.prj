@@ -1,0 +1,4 @@
+vhdl work "MainDecoder.vhd"
+vhdl work "AluDec.vhd"
+vhdl work "Controller.vhd"
+vhdl work "TestbenchControlunit.vhd"

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/AAA/SIM/ISE/Arqui/MainDecoder/maindec.xst" -ofn "C:/AAA/SIM/ISE/Arqui/MainDecoder/maindec.syr" 
+xst -intstyle ise -ifn "C:/AAA/SIM/ISE/Arqui/MainDecoder/maindec.xst" -ofn "C:/AAA/SIM/ISE/Arqui/MainDecoder/maindec.syr" 
+xst -intstyle ise -ifn "C:/AAA/SIM/ISE/Arqui/MainDecoder/maindec.xst" -ofn "C:/AAA/SIM/ISE/Arqui/MainDecoder/maindec.syr" 

@@ -1,0 +1,3 @@
+work	"AluDec.vhd"
+work	"Controller.vhd"
+work	"MainDecoder.vhd"

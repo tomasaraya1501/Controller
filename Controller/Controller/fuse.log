@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Patricio/Desktop/Arqui - bueno/Controller/TestbenchControlunit_isim_beh.exe -prj C:/Users/Patricio/Desktop/Arqui - bueno/Controller/TestbenchControlunit_beh.prj work.TestbenchControlunit 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Patricio/Desktop/Arqui - bueno/Controller/MainDecoder.vhd" into library work
+Parsing VHDL file "C:/Users/Patricio/Desktop/Arqui - bueno/Controller/AluDec.vhd" into library work
+Parsing VHDL file "C:/Users/Patricio/Desktop/Arqui - bueno/Controller/Controller.vhd" into library work
+Parsing VHDL file "C:/Users/Patricio/Desktop/Arqui - bueno/Controller/TestbenchControlunit.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behave of entity maindec [maindec_default]
+Compiling architecture behave of entity aludec [aludec_default]
+Compiling architecture struct of entity controller [controller_default]
+Compiling architecture behavior of entity testbenchcontrolunit
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/Patricio/Desktop/Arqui - bueno/Controller/TestbenchControlunit_isim_beh.exe
+Fuse Memory Usage: 28332 KB
+Fuse CPU Usage: 1296 ms

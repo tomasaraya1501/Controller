@@ -1,0 +1,21 @@
+V3 11
+FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/AluDec.vhd 2018/11/22.16:31:22 P.20131013
+EN work/aludec 1542917249 \
+      FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/AluDec.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/aludec/behave 1542917250 \
+      FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/AluDec.vhd EN work/aludec 1542917249
+FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/Controller.vhd 2018/11/22.14:11:38 P.20131013
+EN work/controller 1542917251 \
+      FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/Controller.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/controller/struct 1542917252 \
+      FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/Controller.vhd \
+      EN work/controller 1542917251 CP maindec CP aludec
+FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/MainDecoder.vhd 2018/11/22.16:35:10 P.20131013
+EN work/maindec 1542917247 \
+      FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/MainDecoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/maindec/behave 1542917248 \
+      FL C:/Users/Alumno_diee/Desktop/Arqui/Controller/MainDecoder.vhd \
+      EN work/maindec 1542917247

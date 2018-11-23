@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/AAA/SIM/ISE/Arqui/AluDec/aludec.xst" -ofn "C:/AAA/SIM/ISE/Arqui/AluDec/aludec.syr" 

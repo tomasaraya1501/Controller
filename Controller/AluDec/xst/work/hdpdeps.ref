@@ -1,0 +1,4 @@
+V3 3
+EN work/aludec 0 FL C:/AAA/SIM/ISE/Arqui/AluDec/AluDec.vhd PB ieee/std_logic_1164 1381692176
+AR work/aludec/behave 0 \
+      FL C:/AAA/SIM/ISE/Arqui/AluDec/AluDec.vhd EN work/aludec 0

@@ -1,0 +1,137 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml controller.twx controller.ncd -o controller.twr
+controller.pcf
+
+Design file:              controller.ncd
+Physical constraint file: controller.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+funct<0>       |alucontrol<0>  |    6.831|
+funct<0>       |alucontrol<2>  |    7.283|
+funct<1>       |alucontrol<0>  |    6.745|
+funct<1>       |alucontrol<1>  |    7.354|
+funct<1>       |alucontrol<2>  |    6.619|
+funct<2>       |alucontrol<0>  |    7.852|
+funct<2>       |alucontrol<1>  |    8.461|
+funct<2>       |alucontrol<2>  |    6.988|
+funct<3>       |alucontrol<0>  |    6.853|
+funct<3>       |alucontrol<1>  |    7.462|
+funct<4>       |alucontrol<0>  |    6.528|
+funct<4>       |alucontrol<1>  |    7.137|
+funct<4>       |alucontrol<2>  |    8.090|
+funct<5>       |alucontrol<0>  |    6.124|
+funct<5>       |alucontrol<1>  |    7.026|
+funct<5>       |alucontrol<2>  |    6.334|
+op<0>          |alucontrol<0>  |   10.939|
+op<0>          |alucontrol<1>  |   11.548|
+op<0>          |alucontrol<2>  |   10.754|
+op<0>          |alusrc         |    6.895|
+op<0>          |jump           |    8.224|
+op<0>          |memtoreg       |    7.855|
+op<0>          |memwrite       |    8.224|
+op<0>          |pcsrc          |    8.153|
+op<0>          |regdst         |    8.231|
+op<0>          |regwrite       |    9.812|
+op<1>          |alucontrol<0>  |    9.657|
+op<1>          |alucontrol<1>  |   10.266|
+op<1>          |alucontrol<2>  |    9.472|
+op<1>          |alusrc         |    6.792|
+op<1>          |jump           |    6.772|
+op<1>          |memtoreg       |    7.762|
+op<1>          |memwrite       |    6.772|
+op<1>          |pcsrc          |    8.060|
+op<1>          |regdst         |    8.138|
+op<1>          |regwrite       |    8.530|
+op<2>          |alucontrol<0>  |   10.513|
+op<2>          |alucontrol<1>  |   11.122|
+op<2>          |alucontrol<2>  |   10.328|
+op<2>          |alusrc         |    6.088|
+op<2>          |jump           |    7.798|
+op<2>          |memtoreg       |    7.738|
+op<2>          |memwrite       |    7.798|
+op<2>          |pcsrc          |    8.036|
+op<2>          |regdst         |    8.114|
+op<2>          |regwrite       |    9.386|
+op<3>          |alucontrol<0>  |   10.572|
+op<3>          |alucontrol<1>  |   11.181|
+op<3>          |alucontrol<2>  |   10.387|
+op<3>          |alusrc         |    6.520|
+op<3>          |jump           |    7.851|
+op<3>          |memtoreg       |    6.705|
+op<3>          |memwrite       |    7.851|
+op<3>          |pcsrc          |    6.115|
+op<3>          |regdst         |    7.016|
+op<3>          |regwrite       |    9.445|
+op<4>          |alucontrol<0>  |   10.356|
+op<4>          |alucontrol<1>  |   10.965|
+op<4>          |alucontrol<2>  |   10.171|
+op<4>          |alusrc         |    7.347|
+op<4>          |jump           |    7.641|
+op<4>          |memtoreg       |    8.138|
+op<4>          |memwrite       |    7.641|
+op<4>          |pcsrc          |    8.436|
+op<4>          |regdst         |    8.514|
+op<4>          |regwrite       |    9.229|
+op<5>          |alucontrol<0>  |   10.701|
+op<5>          |alucontrol<1>  |   11.310|
+op<5>          |alucontrol<2>  |   10.516|
+op<5>          |alusrc         |    7.642|
+op<5>          |jump           |    7.986|
+op<5>          |memtoreg       |    8.159|
+op<5>          |memwrite       |    7.986|
+op<5>          |pcsrc          |    8.457|
+op<5>          |regdst         |    8.535|
+op<5>          |regwrite       |    9.574|
+zero           |pcsrc          |    6.165|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Nov 22 17:07:50 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 133 MB
+
+
+
